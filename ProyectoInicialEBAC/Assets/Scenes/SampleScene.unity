@@ -420,6 +420,7 @@ GameObject:
   - component: {fileID: 963194229}
   - component: {fileID: 963194230}
   - component: {fileID: 963194231}
+  - component: {fileID: 963194232}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -511,7 +512,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c996e57d86cc8140b9eee99ae5ddb7d, type: 3}
   m_Name: 
@@ -523,7 +524,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e47abd626f854e943b807cc840b10f5f, type: 3}
   m_Name: 
@@ -532,6 +533,18 @@ MonoBehaviour:
   listaDeCubos: []
   factorDeEscalamiento: 0.95
   numCubos: 0
+--- !u!114 &963194232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f194412453e765f46b6d5bae8fd14525, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2106619606 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5784582709587086033, guid: 16cb1a73279860548b231aec4b862ab5, type: 3}
@@ -601,6 +614,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5784582709587086032, guid: 16cb1a73279860548b231aec4b862ab5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5784582709587086033, guid: 16cb1a73279860548b231aec4b862ab5, type: 3}
       propertyPath: m_Name
       value: Cube
@@ -647,6 +664,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5784582709587086042, guid: 16cb1a73279860548b231aec4b862ab5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784582709587086046, guid: 16cb1a73279860548b231aec4b862ab5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784582709587086047, guid: 16cb1a73279860548b231aec4b862ab5, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -718,6 +743,14 @@ PrefabInstance:
     - target: {fileID: 6254056991839920126, guid: 6e306bccd9e404e48acbc85bcf206642, type: 3}
       propertyPath: m_Name
       value: TorreJenga
+      objectReference: {fileID: 0}
+    - target: {fileID: 8867407198320379513, guid: 6e306bccd9e404e48acbc85bcf206642, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8867407199506390495, guid: 6e306bccd9e404e48acbc85bcf206642, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9145597394998806833, guid: 6e306bccd9e404e48acbc85bcf206642, type: 3}
       propertyPath: m_RootOrder
